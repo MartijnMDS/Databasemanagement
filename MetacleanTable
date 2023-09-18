@@ -1,0 +1,10 @@
+Create table MovieDataBase(
+	url varchar (400) PRIMARY KEY,
+	runtime int,
+	actors varchar (900),
+	director varchar (50),
+	genre varchar (500),
+	metascore float,
+	userscore float,
+	reldate date,
+	newUrl varchar (200));
